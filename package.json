@@ -1,0 +1,58 @@
+{
+  "name": "radiology",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rannlab.visualstudio.com/Radiology/_git/RadiologyAPI"
+  },
+  "author": "khushal rajoria",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.327.0",
+    "@aws-sdk/client-s3": "^3.697.0",
+    "@aws-sdk/s3-request-presigner": "^3.697.0",
+    "@mui/styles": "^5.13.7",
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "agora-access-token": "^2.0.4",
+    "aws-sdk": "^2.1372.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "fcm-node": "^1.3.0",
+    "firebase-admin": "^11.7.0",
+    "joi": "^17.9.2",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.3",
+    "multer": "^1.4.5-lts.1",
+    "node-base64-image": "^2.0.5",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.7",
+    "otp-generator": "^4.0.1",
+    "randomatic": "^3.1.1",
+    "razorpay": "^0.0.0",
+    "socket.io": "^4.7.1",
+    "swagger-autogen": "^2.23.6",
+    "swagger-jsdoc": "^6.0.0",
+    "swagger-ui-express": "^5.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
